@@ -70,6 +70,7 @@ output "Hold on, this may take a minute..."
     sudo ufw allow ssh
     sudo ufw limit ssh
     sudo ufw allow 5511/tcp
+    sudo ufw logging on
     sudo ufw --force enable
     fi
    clear
